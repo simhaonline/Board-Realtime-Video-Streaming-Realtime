@@ -1,0 +1,60 @@
+*{margin: 0;padding: 0;}
+
+/************************************************************************************************************
+*** SELECTED ROLE
+************************************************************************************************************/
+.selection{
+    position: fixed;
+    z-index: 1000;
+    background: rgb(19, 19, 19);
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selection>.box{
+    width: 500px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selection>.box>h3{
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+.selection>.box>p{
+    font-size: .8em;
+    text-align: center;
+    color: rgba(255,255,255,.6);
+    padding-bottom: 30px;
+}
+
+.selection>.box>.content-btn{
+    display: flex;
+}
+
+.selection>.box>.content-btn>.btn{
+    cursor: pointer;
+    margin:10px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all ease .2s;
+}
+
+
+.selection>.box>.content-btn>.btn:hover{
+    background: black;
+    color: white;
+}
