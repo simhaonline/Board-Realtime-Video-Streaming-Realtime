@@ -1,0 +1,15 @@
+{
+  "name": "board-real-time",
+  "version": "1.0.0",
+  "description": "This is a virtual whiteboard in real time and at the same time having a streaming video presenter. It can be used to teach online classes and the student can see better what the teacher explains and in turn what he writes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JeiDevp",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "sqlite3": "^4.0.6"
+  }
+}
